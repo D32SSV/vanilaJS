@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.random-color-generator-container{
+  display: flex;
+  gap: 10px;
+}
+
+.hex-color-container, .rgb-color-container{
+  min-height: 80vh;
+  flex: 1;
+}
+
+.hex-color-container button, .rgb-color-container button  {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(230, 246, 127);
+  border-radius: 5rem;
+  border: none;
+}
+
+.rgb-color-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hex-color-container,.rgb-color-container {
+  background-color: cornflowerblue;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  border:2px solid black;
+  border-radius: 2rem;
+}
+
+.hex-color-value , .rgb-color-value {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
